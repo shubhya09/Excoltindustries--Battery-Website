@@ -1,5 +1,32 @@
+
+
+.home{
+    background-color: rgb(245, 245, 245);
+    
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* margin-top: 52px; */
+    
+    padding: 50px;
+}
+
+
 .imghome{
-    width: 100vw;
-    height: 300px;
+    width: 30vw;
+    height: 200px;
     margin-bottom: 50px;
+    
 } 
+
+.leftside {
+    margin-top: 50px;
+}
+
+
