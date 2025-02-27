@@ -1,0 +1,29 @@
+
+
+.container{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.content{
+    background-color: rgb(218, 220, 221);
+    padding: 20px;
+    max-width: 400px;
+    margin-top: -15px;
+   
+}
+
+hr{
+    color: red;
+
+}
+
+.content img{
+    width: 100px;
+
+}

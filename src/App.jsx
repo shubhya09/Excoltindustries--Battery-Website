@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";  // Import Route
 import SpecialityMenu from "./Components/SpecialityMenu";
+import CommunityInfo from "./Components/CommunityInfo";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Navbar /> {/* Navbar should be outside Routes */}
       <Routes>
         <Route path="/" element={<Home />} />  {/* Wrap Home inside Route */}
-        <Route path="" element={<SpecialityMenu />} />  {/* Add About Route */}
       </Routes>
+      <SpecialityMenu /> {/* Add About Route */}
+      <CommunityInfo />
     </BrowserRouter>
   );
 }
