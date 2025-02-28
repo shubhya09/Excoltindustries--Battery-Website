@@ -3,7 +3,7 @@ import './SpecialityMenu.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
   faCar, faIndustry, faWarehouse, faCarBattery, 
-  faSolarPanel, faShip, faPersonBiking 
+  faSolarPanel, faShip
 } from "@fortawesome/free-solid-svg-icons"; // Importing all required icons
 
 const SpecialityMenu = () => {
@@ -45,10 +45,6 @@ const SpecialityMenu = () => {
         <h3>Submarine Batteries</h3>
       </div>
 
-      <div className="menu">
-        <FontAwesomeIcon className='fa1' icon={faPersonBiking} />
-        <h3>E-Rickshaw</h3>
-      </div>
 
     </div>
   );

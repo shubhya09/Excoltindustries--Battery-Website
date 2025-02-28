@@ -1,10 +1,11 @@
 
 
 .home{
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
+    background: url('https://lumprodblobcdn.azureedge.net/Banners/af216cf6-5c80-463f-8a56-03323584595d_Multiple-Products-Desktop.jpg');
     
 }
-.container1{
+/* .container1{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -12,7 +13,7 @@
     justify-content: space-around;
     margin-left: 60px;
     margin-right: 60px;
-    /* margin-top: 52px; */
+    
     
     padding: 50px;
 }
@@ -27,6 +28,6 @@
 
 .leftside {
     margin-top: 50px;
-}
+} */
 
 

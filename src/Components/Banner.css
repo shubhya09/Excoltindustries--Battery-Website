@@ -1,5 +1,5 @@
 .container2{
-    background-color: red;
+    background-color: #00184C;
     height: 60vh;
     margin-bottom: 50px;
 }
@@ -26,9 +26,6 @@
 
 }
 
-.upperContent{
-    display: flex;
-}
 .lowerContent{
     margin-top: 50px;
 }

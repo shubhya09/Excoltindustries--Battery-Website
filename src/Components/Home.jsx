@@ -5,17 +5,7 @@ const Home = () => {
   return (
     <>
     <div className="home">
-      <div className="container1">
-
-        <div className="leftside">
-          <h1>EXCOLT BATTERIES</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
-
-        <div className="rightsidee">
-          <img className='imghome' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2c0J0ow4Nq4ROeRbQnyiQCIsZelR94ZamQ&s" alt="" />
-        </div>
-      </div>
+     <img src="https://lumprodblobcdn.azureedge.net/Banners/af216cf6-5c80-463f-8a56-03323584595d_Multiple-Products-Desktop.jpg" alt="" />
       </div>
     </>
   )

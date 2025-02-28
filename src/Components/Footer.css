@@ -1,5 +1,6 @@
 .footer{
-    background-color: rgb(197, 199, 200);
+    background-color: #00184C;
+    color: white;
 }
 .container{
     display: flex;

@@ -1,0 +1,28 @@
+/* Set background color for the whole page */
+body {
+    background-color: #f8f9fa; /* Light gray */
+  }
+  
+  /* Ensure navbar dropdowns appear on hover */
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Align dropdowns to the right */
+  .navbar-nav {
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+  }
+  
+  li{
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+  }
+
+  Link{
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+  }
