@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";  // Import Rout
 import SpecialityMenu from "./Components/SpecialityMenu";
 import CommunityInfo from "./Components/CommunityInfo";
 import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <SpecialityMenu /> {/* Add About Route */}
       <CommunityInfo />
       <Banner />
+      <Footer />  
     </BrowserRouter>
   );
 }
